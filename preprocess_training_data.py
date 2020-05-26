@@ -3,8 +3,9 @@ import cv2
 import numpy as np
 import random
 import os
-from skimage import transform
 from skimage import exposure
+
+
 def create_files():
     labels = []
     images = []
