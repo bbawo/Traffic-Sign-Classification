@@ -5,6 +5,8 @@ import random
 import os
 from skimage import exposure
 
+
+
 def create_files():
     labels = []
     images = []
@@ -41,7 +43,7 @@ def create_files():
 
     print "images number: ", len(images)
     print "labels number: ", len(labels)
-
+ 
     np.savez('test_data.npz', train = images, train_labels = labels)
 
 
