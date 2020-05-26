@@ -6,6 +6,7 @@ import os
 from skimage import exposure
 
 
+
 def create_files():
     labels = []
     images = []
